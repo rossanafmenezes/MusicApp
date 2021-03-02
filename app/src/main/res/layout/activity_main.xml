@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/CategoryStyle"
+        android:background="#fff"
+        android:textColor="#0D47A1"
+        android:text="Playlists"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/favorites"
+        style="@style/CategoryStyle"
+        android:background="@color/category_favorites"
+        android:text="Favorite Songs"
+        />
+
+    <TextView
+        android:id="@+id/songsOfTheYear"
+        style="@style/CategoryStyle"
+        android:background="@color/category_songsOfTheYear"
+        android:text="Songs of the Year"
+        />
+
+    <TextView
+        android:id="@+id/workoutSongs"
+        style="@style/CategoryStyle"
+        android:background="@color/category_workoutSongs"
+        android:text="Workout Songs"
+        />
+
+    <TextView
+        android:id="@+id/dailyMix"
+        style="@style/CategoryStyle"
+        android:background="@color/category_dailyMix"
+        android:text="Daily Mix"
+        />
+
+</LinearLayout>

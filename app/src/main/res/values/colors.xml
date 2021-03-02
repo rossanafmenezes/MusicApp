@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#0D47A1</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#1565C0</color>
+
+    <!-- Background color for app -->
+    <color name="background">#E3F2FD</color>
+
+    <!-- Background color for the favorite  category -->
+    <color name="category_favorites">#1E88E5</color>
+
+    <!-- Background color for the songs of the year category -->
+    <color name="category_songsOfTheYear">#2196F3</color>
+
+    <!-- Background color for the workout songs category -->
+    <color name="category_workoutSongs">#42A5F5</color>
+
+    <!-- Background color for the daily mix category -->
+    <color name="category_dailyMix">#64B5F6</color>
+</resources>
